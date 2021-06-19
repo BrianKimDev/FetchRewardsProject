@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A54270EB267E2749005A5546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54270EA267E2749005A5546 /* AppDelegate.swift */; };
 		A54270ED267E2749005A5546 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54270EC267E2749005A5546 /* SceneDelegate.swift */; };
-		A54270EF267E2749005A5546 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54270EE267E2749005A5546 /* ViewController.swift */; };
 		A54270F2267E2749005A5546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54270F0267E2749005A5546 /* Main.storyboard */; };
 		A54270F4267E274B005A5546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54270F3267E274B005A5546 /* Assets.xcassets */; };
 		A54270F7267E274B005A5546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54270F5267E274B005A5546 /* LaunchScreen.storyboard */; };
+		A5427106267E2812005A5546 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5427105267E2812005A5546 /* EventData.swift */; };
+		A542710A267E285F005A5546 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5427109267E285F005A5546 /* EventTableViewController.swift */; };
+		A542710E267E292C005A5546 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542710D267E292C005A5546 /* Extensions.swift */; };
+		A5427110267E2A15005A5546 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542710F267E2A15005A5546 /* Service.swift */; };
+		A5427112267E2A85005A5546 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5427111267E2A85005A5546 /* EventViewModel.swift */; };
+		A5427114267E34E2005A5546 /* PerformanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5427113267E34E2005A5546 /* PerformanceViewModel.swift */; };
+		A5427116267E36C2005A5546 /* SeatGeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5427115267E36C2005A5546 /* SeatGeek.swift */; };
+		A5427118267E36D8005A5546 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5427117267E36D8005A5546 /* ApiKey.swift */; };
+		A542711A267E38F1005A5546 /* EventsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5427119267E38F1005A5546 /* EventsDetailViewController.swift */; };
+		A542711C267E3A58005A5546 /* EventCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542711B267E3A58005A5546 /* EventCellView.swift */; };
+		A5427122267E3A7F005A5546 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5427121267E3A7F005A5546 /* LikeButton.swift */; };
+		A542712C267E3AA8005A5546 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542712B267E3AA8005A5546 /* Favorites.swift */; };
+		A542712E267E3ACC005A5546 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542712D267E3ACC005A5546 /* SearchBar.swift */; };
+		A5427132267E45FB005A5546 /* SubTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5427131267E45FB005A5546 /* SubTextLabel.swift */; };
+		A5427134267E4643005A5546 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5427133267E4643005A5546 /* TitleLabel.swift */; };
+		C37620771E2A6217AAA6F2D8 /* Pods_FetchRewardsProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9A74DF71C4004A8C3FB61 /* Pods_FetchRewardsProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39D6D38B6C109CD38E1C9BD2 /* Pods-FetchRewardsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchRewardsProject.debug.xcconfig"; path = "Target Support Files/Pods-FetchRewardsProject/Pods-FetchRewardsProject.debug.xcconfig"; sourceTree = "<group>"; };
+		66B9A74DF71C4004A8C3FB61 /* Pods_FetchRewardsProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchRewardsProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		938CF760F3A324301FEF3E6A /* Pods-FetchRewardsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchRewardsProject.release.xcconfig"; path = "Target Support Files/Pods-FetchRewardsProject/Pods-FetchRewardsProject.release.xcconfig"; sourceTree = "<group>"; };
 		A54270E7267E2749005A5546 /* FetchRewardsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchRewardsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54270EA267E2749005A5546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A54270EC267E2749005A5546 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A54270EE267E2749005A5546 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A54270F1267E2749005A5546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A54270F3267E274B005A5546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54270F6267E274B005A5546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54270F8267E274B005A5546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5427105267E2812005A5546 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		A5427109267E285F005A5546 /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		A542710D267E292C005A5546 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A542710F267E2A15005A5546 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A5427111267E2A85005A5546 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		A5427113267E34E2005A5546 /* PerformanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceViewModel.swift; sourceTree = "<group>"; };
+		A5427115267E36C2005A5546 /* SeatGeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatGeek.swift; sourceTree = "<group>"; };
+		A5427117267E36D8005A5546 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
+		A5427119267E38F1005A5546 /* EventsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDetailViewController.swift; sourceTree = "<group>"; };
+		A542711B267E3A58005A5546 /* EventCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCellView.swift; sourceTree = "<group>"; };
+		A5427121267E3A7F005A5546 /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		A542712B267E3AA8005A5546 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		A542712D267E3ACC005A5546 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		A5427131267E45FB005A5546 /* SubTextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubTextLabel.swift; sourceTree = "<group>"; };
+		A5427133267E4643005A5546 /* TitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37620771E2A6217AAA6F2D8 /* Pods_FetchRewardsProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21A24B6B718F3AD4D1FB9660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66B9A74DF71C4004A8C3FB61 /* Pods_FetchRewardsProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A54270DE267E2749005A5546 = {
 			isa = PBXGroup;
 			children = (
 				A54270E9267E2749005A5546 /* FetchRewardsProject */,
 				A54270E8267E2749005A5546 /* Products */,
+				B3B9CDF7D9265783E1C3B0A8 /* Pods */,
+				21A24B6B718F3AD4D1FB9660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,102 @@
 		A54270E9267E2749005A5546 /* FetchRewardsProject */ = {
 			isa = PBXGroup;
 			children = (
-				A54270EA267E2749005A5546 /* AppDelegate.swift */,
-				A54270EC267E2749005A5546 /* SceneDelegate.swift */,
-				A54270EE267E2749005A5546 /* ViewController.swift */,
-				A54270F0267E2749005A5546 /* Main.storyboard */,
-				A54270F3267E274B005A5546 /* Assets.xcassets */,
-				A54270F5267E274B005A5546 /* LaunchScreen.storyboard */,
+				A5427104267E275B005A5546 /* Model */,
+				A5427103267E275A005A5546 /* View */,
+				A5427102267E2759005A5546 /* ViewModel */,
+				A5427101267E2757005A5546 /* Controllers */,
+				A5427100267E2756005A5546 /* Api */,
+				A54270FF267E2755005A5546 /* Utilities */,
+				A54270FE267E2754005A5546 /* Helpers */,
 				A54270F8267E274B005A5546 /* Info.plist */,
 			);
 			path = FetchRewardsProject;
+			sourceTree = "<group>";
+		};
+		A54270FE267E2754005A5546 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A5427131267E45FB005A5546 /* SubTextLabel.swift */,
+				A5427133267E4643005A5546 /* TitleLabel.swift */,
+				A54270F3267E274B005A5546 /* Assets.xcassets */,
+				A54270EA267E2749005A5546 /* AppDelegate.swift */,
+				A54270EC267E2749005A5546 /* SceneDelegate.swift */,
+				A54270F0267E2749005A5546 /* Main.storyboard */,
+				A54270F5267E274B005A5546 /* LaunchScreen.storyboard */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A54270FF267E2755005A5546 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A542710D267E292C005A5546 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A5427100267E2756005A5546 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				A5427135267E5542005A5546 /* key */,
+				A542710F267E2A15005A5546 /* Service.swift */,
+				A5427115267E36C2005A5546 /* SeatGeek.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		A5427101267E2757005A5546 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5427109267E285F005A5546 /* EventTableViewController.swift */,
+				A5427119267E38F1005A5546 /* EventsDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A5427102267E2759005A5546 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5427111267E2A85005A5546 /* EventViewModel.swift */,
+				A5427113267E34E2005A5546 /* PerformanceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A5427103267E275A005A5546 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5427121267E3A7F005A5546 /* LikeButton.swift */,
+				A542712D267E3ACC005A5546 /* SearchBar.swift */,
+				A542711B267E3A58005A5546 /* EventCellView.swift */,
+				A542712B267E3AA8005A5546 /* Favorites.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5427104267E275B005A5546 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5427105267E2812005A5546 /* EventData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5427135267E5542005A5546 /* key */ = {
+			isa = PBXGroup;
+			children = (
+				A5427117267E36D8005A5546 /* ApiKey.swift */,
+			);
+			path = key;
+			sourceTree = "<group>";
+		};
+		B3B9CDF7D9265783E1C3B0A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39D6D38B6C109CD38E1C9BD2 /* Pods-FetchRewardsProject.debug.xcconfig */,
+				938CF760F3A324301FEF3E6A /* Pods-FetchRewardsProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A54270FB267E274B005A5546 /* Build configuration list for PBXNativeTarget "FetchRewardsProject" */;
 			buildPhases = (
+				D3EEF18FCD9FA1AC370586F0 /* [CP] Check Pods Manifest.lock */,
 				A54270E3267E2749005A5546 /* Sources */,
 				A54270E4267E2749005A5546 /* Frameworks */,
 				A54270E5267E2749005A5546 /* Resources */,
+				5978FC9F74E28C6582BEC4A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +264,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5978FC9F74E28C6582BEC4A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FetchRewardsProject/Pods-FetchRewardsProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FetchRewardsProject/Pods-FetchRewardsProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FetchRewardsProject/Pods-FetchRewardsProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3EEF18FCD9FA1AC370586F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FetchRewardsProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A54270E3267E2749005A5546 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A54270EF267E2749005A5546 /* ViewController.swift in Sources */,
 				A54270EB267E2749005A5546 /* AppDelegate.swift in Sources */,
+				A5427114267E34E2005A5546 /* PerformanceViewModel.swift in Sources */,
+				A542712E267E3ACC005A5546 /* SearchBar.swift in Sources */,
+				A5427116267E36C2005A5546 /* SeatGeek.swift in Sources */,
+				A5427122267E3A7F005A5546 /* LikeButton.swift in Sources */,
+				A5427112267E2A85005A5546 /* EventViewModel.swift in Sources */,
+				A542711C267E3A58005A5546 /* EventCellView.swift in Sources */,
+				A5427110267E2A15005A5546 /* Service.swift in Sources */,
+				A542711A267E38F1005A5546 /* EventsDetailViewController.swift in Sources */,
+				A5427118267E36D8005A5546 /* ApiKey.swift in Sources */,
 				A54270ED267E2749005A5546 /* SceneDelegate.swift in Sources */,
+				A5427132267E45FB005A5546 /* SubTextLabel.swift in Sources */,
+				A542712C267E3AA8005A5546 /* Favorites.swift in Sources */,
+				A542710E267E292C005A5546 /* Extensions.swift in Sources */,
+				A5427134267E4643005A5546 /* TitleLabel.swift in Sources */,
+				A542710A267E285F005A5546 /* EventTableViewController.swift in Sources */,
+				A5427106267E2812005A5546 /* EventData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +471,7 @@
 		};
 		A54270FC267E274B005A5546 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D6D38B6C109CD38E1C9BD2 /* Pods-FetchRewardsProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +491,7 @@
 		};
 		A54270FD267E274B005A5546 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938CF760F3A324301FEF3E6A /* Pods-FetchRewardsProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
